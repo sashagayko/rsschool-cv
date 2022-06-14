@@ -4,168 +4,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
-    <link rel="icon" href="assets/img/favicon.ico">
-    <link rel="icon" href="assets/img/favicon2.ico">
+    <title>CV#3</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/my-photo.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <div class="wrapper">
-            <div class="logo"><a href="https://github.com/sashagayko?tab=repositories"></a></div>
-            <nav class="nav">
-                <ul class="nav-list">
-                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                  <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
-                  <li class="nav-item"><a href="#video" class="nav-link">Video</a></li>
-                  <li class="nav-item"><a href="#price" class="nav-link">Price</a></li>
-                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                </ul>
-              </nav>
-              <div>
-                <button  class="header__switch"><span>en </span>  /  ru</button>
-              </div>
-        </div>  
-    </header>
-    <main class="main">
+    <header>
         <div class="container">
-            <section class="hero">
-                <h1 class="hero-title">Alexa Rise</h1>
-                <p>Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise</p>
-                <button class="button button_colored">Hire me</button>
-            </section>
-            <section id="skills">
-                <h2 class="section-title">Skills</h2>
-                <div class="layout-4-column">
-                    <div class="skills-item">
-                        <div class="skills-icon">
-                            <div class="icon__camera"></div>
-                        </div>
-                        <h4>Digital photography</h4>
-                        <p class="skills-description">High-quality photos in the studio <br> and on the nature</p>
-                    </div>
-                    <div class="skills-item">
-                        <div class="skills-icon">
-                            <div class="icon__video"></div>
-                        </div>
-                        <h4>Video shooting</h4>
-                        <p class="skills-description">Capture your moments so that <br> they always stay with you</p>
-                    </div>
-                    <div class="skills-item">
-                        <div class="skills-icon">
-                            <div class="icon__image"></div>
-                        </div>
-                        <h4>Retouch</h4>
-                        <p class="skills-description">I strive to make photography <br> surpass reality</p>
-                    </div>
-                    <div class="skills-item">
-                        <div class="skills-icon">
-                            <div class="icon__micro"></div>
-                        </div>
-                        <h4>Audio</h4>
-                        <p class="skills-description">Professional sounds recording <br> for video, advertising, portfolio</p>
-                    </div>
+            <div class="header">
+                <div class="header-photo">
+                    <img src="assets/img/my-photo.jpg" alt="my photo">
                 </div>
-            </section>
-            <section id="portfolio">
-                <h2 class="section-title">Portfolio</h2>
-                <div class="layout-4-column_portfolio">
-                    <button class="button button_bordored">Winter</button>
-                    <button class="button button_bordored">Spring</button>
-                    <button class="button button_bordored">Summer</button>
-                    <button class="button button_colored">Autumn</button>
+                <div class="header-info">
+                    <h1>Alexandr Gayko</h1>
+                    <span>Front-End developer</span>
+                    <nav class="nav" id="menu-nav">
+                        <ul class="nav-list">
+                          <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+                          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                          <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                        </ul>
+                      </nav>
                 </div>
-                <div class="layout-3-column">
-                    <div class="photo-item">
-                        <img src="assets/img/portfolio-img1.png" alt="portfolio image">
-                    </div>
-                    <div class="photo-item">
-                        <img src="assets/img/portfolio-img2.png" alt="portfolio image">
-                    </div>
-                    <div class="photo-item">
-                        <img src="assets/img/portfolio-img3.png" alt="portfolio image">
-                    </div>
-                    <div class="photo-item">
-                        <img src="assets/img/portfolio-img4.png" alt="portfolio image">
-                    </div>
-                    <div class="photo-item">
-                        <img src="assets/img/portfolio-img5.png" alt="portfolio image">
-                    </div>
-                    <div class="photo-item">
-                        <img src="assets/img/portfolio-img6.png" alt="portfolio image">
-                    </div>
-                </div>
-            </section>
-            <section id="video">
-                <h2 class="section-title">Video</h2>
-                <div class="video-player">
-                    <div class="video-img">
-                        <img src="assets/img/video-player.png" alt="video player">
-                    </div>
-                    <button class="play-hover"><img src="assets/svg/play_hover.svg" alt="button play"></button>
-                </div>
-            </section>
-            <section id="price" class="price">
-                <h2 class="section-title">Price</h2>
-                <div class="layout-3-column layout-3-column_price">
-                    <div class="price-item">
-                        <h3 class="price-title">Standard</h3>
-                        <span class="price-price">500 $</span>
-                        <span class="price-description">One location <br> 120 photos in color
-                            <br> 12 photos in retouch <br> Readiness 2-3 weeks <br> Make up, visage
-                        </span>
-                        <button class="button button_colored">Order shooting</button>
-                    </div>
-                    <div class="price-item">
-                        <h3 class="price-title">Premium</h3>
-                        <span class="price-price">700 $</span>
-                        <span class="price-description">One or two locations <br>
-                            200 photos in color<br>
-                            20 photos in retouch<br>
-                            Readiness 1-2 weeks<br>
-                            Make up, visage
-                        </span>
-                        <button class="button button_colored">Order shooting</button>
-                    </div>
-                    <div class="price-item">
-                        <h3 class="price-title">Gold</h3>
-                        <span class="price-price">1000 $</span>
-                        <span class="price-description">Three locations or more <br>
-                            300 photos in color <br>
-                            50 photos in retouch <br>
-                            Readiness 1 week <br>
-                            Make up, visage, hairstyle
-                        </span>
-                        <button class="button button_colored">Order shooting</button>
-                    </div>
-                </div>
-            </section>
-            <section id="contacts" class="contacts">
-                <div class="contacts-container">
-                    <h2 class="contacts-title">Contact me</h2>
-                    <input class="contacts-data" type="email" placeholder="E-mail">
-                    <input class="contacts-data" type="tel" placeholder="Phone">
-                    <textarea class="contacts-data contacts-data_textarea"  name="" id="" placeholder="Message"></textarea>
-                    <button class="button button_colored">Send message</button>
-                </div>
-            </section>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="main">
+                <section id="about-me">
+                    <h2 class="section-title">About me</h2>
+                    <p class="section-text">I am 20 years old, I study at the Belarusian State University of Informatics and Radioelectronics. I love to develop, that's why I'm here.
+                        I like to work and see the results of my work. This is one of the reasons why I chose the frontend.
+                    </p>
+                </section>
+                <section id="contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul class="contacts-list">
+                        <li class="contacts-item">Discord: Alexander Gayko (@sashagayko)</li>
+                        <li class="contacts-item">Email: alexandr.gayko@gmail.com</li>
+                        <li class="contacts-item">Address: Minsk, Belarus</li>
+                    </ul>
+                </section>
+                <section id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul class="skills-list">
+                        <li class="skills-item">HTML5</li>
+                        <li class="skills-item">CSS (CSS3, BEM)</li>
+                        <li class="skills-item">SCSS</li>
+                        <li class="skills-item">JavaScript (Basic level)</li>
+                        <li class="skills-item">Version control:Gitlab, GitHub</li>
+                        <li class="skills-item"> Figma (for web development)</li>
+                    </ul>
+                </section>
+                <section id="code">
+                    <h2 class="section-title">Code</h2>
+                    <p class="section-text">Code Example:</p>
+                    <p class="section-code"><code>
+                      function checkParent (src, dest) {<Br>
+                       while (src != null) {<Br>
+                         if (src.tagName == dest) return src<Br>
+                          src = src.parentElement<Br>
+                       }<Br>
+                       return null<Br>
+                      }</code></p>
+                </section>
+                <section id="projects">
+                    <h2 class="section-title">Projects</h2>
+                    <ul class="projects-list">
+                        <li class="projects-item"><a href="https://rolling-scopes-school.github.io/sashagayko-JSFE2022Q1/shelter/pages/main/index.html">Shelter</a></li>
+                        <li class="projects-item"><a href="https://github.com/rolling-scopes-school/sashagayko-JSFEPRESCHOOL/blob/portfolio/portfolio/index.html">Portfolio</a></li>
+                        
+                    </ul>
+                </section>
+                <section id="english">
+                    <h2 class="section-title">English</h2>
+                    <p class="section-text">At the moment my English level is A2</p>
+                </section>
+            </div>
         </div>
     </main>
-    <footer class="footer">
-        <div class="footer-data">
-            <div>©</div>
-            <div>2022</div>
-            <div><a class="footer-link" href="https://github.com/sashagayko?tab=repositories">github</a></div>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="footer-git"><a href="https://github.com/sashagayko">Git</a></div>
+                <div>2022</div>
+                <div class="footer-img"><a href="https://rs.school/js/" target="_blank"><img src="assets/img/rs_school_js.svg" alt="rs school"></a></div>
+            </div>
         </div>
-        <div> <a class="footer-link footer-link_rs" href="https://rs.school/js-stage0/">Rolling Scopes School</a></div>
-        <ul class="social-list">
-            <li><a href="https://github.com/sashagayko?tab=repositories"><img class="social-item" src="assets/svg/inst.svg" alt="inst"></a></li>
-            <li><a href="https://github.com/sashagayko?tab=repositories"><img class="social-item" src="assets/svg/fb.svg" alt="fb"></a></li>
-            <li><a href="https://github.com/sashagayko?tab=repositories"><img class="social-item" src="assets/svg/tw.svg" alt="tw"></a></li>
-            <li><a href="https://github.com/sashagayko?tab=repositories"><img class="social-item" src="assets/svg/pinterest.svg" alt="pinterest"></a></li>
-        </ul>
     </footer>
-
-    <script src="index.js"></script>
 </body>
 </html>
