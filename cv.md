@@ -18,3 +18,8 @@ function multiply(a, b){
 ```
 ## Experience
 
+## Education
+* University: Belarusian State University of Informatics and Radioelectronics
+    + Faculty of Computer Engineering
+## English
+A2
